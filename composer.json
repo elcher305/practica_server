@@ -1,17 +1,19 @@
 {
-    "name": "elcher305/server_practic",
-    "description": "\"Simple mvc freamework\"",
+    "name": "conr/practice-on-server",
+    "description": "a practical assignment for working on the server side using the php language",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Elvira",
-            "email": "elvira.chernova.05@gmail.com"
+            "name": "CoHR",
+            "email": "malenkoer@yandex.ru"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "illuminate/database": "^13.0@dev",
+        "illuminate/events": "^13.0@dev"
     },
     "autoload": {
         "psr-4": {
