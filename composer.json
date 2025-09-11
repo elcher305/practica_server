@@ -1,0 +1,23 @@
+{
+    "name": "elcher305/server_practic",
+    "description": "\"Simple mvc freamework\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvira",
+            "email": "elvira.chernova.05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
